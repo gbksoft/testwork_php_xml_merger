@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <object class="test/name/class">
+        <proprty name="test_property_1" type="string">test-value-1</proprty>
+        <proprty name="test_property_2" type="string">test-value-2</proprty>
+        <proprty name="test_property_3" type="array">
+            <item name="test_name_3" type="array">
+                <item name="test_name_1" type="string">test_value_1</item>
+                <item name="test_name_2" type="array">
+                    <item name="test_name_1" type="string">test_value_1</item>
+                    <item name="test_name_2" type="string">
+                        <object class="test/name/name/class">
+                            <proprty name="test_property_1" type="string">test-value-1</proprty>
+                            <proprty name="test_property_2" type="string">test-value-2</proprty>
+                            <proprty name="test_property_3" type="array">
+                                <item name="test_name_3" type="array">
+                                    <item name="test_name_1" type="string">test_value_1</item>
+                                    <item name="test_name_2" type="array">
+                                        <item name="test_name_1" type="string">test_value_1</item>
+                                    </item>
+                                </item>
+                            </proprty>
+                        </object>
+                    </item>
+                </item>
+            </item>
+        </proprty>
+        <proprty name="test_property_4" type="object">
+            <object class="test/name/name/class">
+                <proprty name="test_property_1" type="string">test-value-1</proprty>
+                <proprty name="test_property_2" type="string">test-value-2</proprty>
+                <proprty name="test_property_3" type="array">
+                    <item name="test_name_3" type="array">
+                        <item name="test_name_1" type="string">test_value_1</item>
+                        <item name="test_name_2" type="array">
+                            <item name="test_name_1" type="string">test_value_1</item>
+                        </item>
+                    </item>
+                </proprty>
+                <proprty name="test_property_4" type="object">test-value-4</proprty>
+                <proprty name="test_property_5" type="string">test-value-5</proprty>
+                <proprty name="test_property_6" type="array">
+                    <item name="test_name_3" type="array">
+                        <item name="test_name_1" type="string">test_value_1</item>
+                        <item name="test_name_2" type="array">
+                            <item name="test_name_1" type="string">test_value_1</item>
+                        </item>
+                    </item>
+                </proprty>
+            </object>
+        </proprty>
+        <proprty name="test_property_5" type="string">test-value-5</proprty>
+        <proprty name="test_property_6" type="string">test-value-6</proprty>
+    </object>
+    <object class="test/name/class/class/test">
+        <proprty name="test_property_1" type="string">test-value-1</proprty>
+        <proprty name="test_property_2" type="string">test-value-2</proprty>
+        <proprty name="test_property_4" type="object">
+            <object class="test/name/name/class">
+                <proprty name="test_property_1" type="string">test-value-1</proprty>
+                <proprty name="test_property_2" type="string">test-value-2</proprty>
+                <proprty name="test_property_3" type="array">
+                    <item name="test_name_3" type="array">
+                        <item name="test_name_1" type="string">test_value_1</item>
+                        <item name="test_name_2" type="array">
+                            <item name="test_name_1" type="string">test_value_1</item>
+                        </item>
+                    </item>
+                </proprty>
+                <proprty name="test_property_4" type="object">test-value-4</proprty>
+                <proprty name="test_property_5" type="array">
+                    <item name="test_name_3" type="array">
+                        <item name="test_name_1" type="array">
+                            <item name="test_name_1" type="string">test_value_1</item>
+                        </item>
+                    </item>
+                </proprty>
+            </object>
+        </proprty>
+        <proprty name="test_property_6" type="string">test-value-6</proprty>
+    </object>
+</config>
